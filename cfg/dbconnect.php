@@ -2,7 +2,7 @@
   $server="localhost";
   $userid="root";
   $pwd="";
-  $dbname="users_db";
+  $dbname="demo";
   $conn = mysqli_connect($server, $userid, $pwd, $dbname);
 //Check connection
 if (!$conn) 
