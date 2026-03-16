@@ -5,7 +5,7 @@ CREATE TABLE `users` (
   `name` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `signup_date` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=users_db DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
 
